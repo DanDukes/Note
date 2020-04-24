@@ -18,8 +18,6 @@ require("./routes/htmlRoutes")(app);
 
 //api routes
 require("./controllers/noteController")(app);
-
-
   
 // Starts the server to begin listening
 app.listen(PORT, function() {
